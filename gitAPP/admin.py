@@ -11,4 +11,5 @@ class PersonAdmin(admin.ModelAdmin):
             'password',
             'email',
             'date',
+            'contact'
         ]

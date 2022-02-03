@@ -7,3 +7,4 @@ class Person(models.Model):
     password = models.CharField(max_length=255)
     email = models.EmailField(max_length=255)
     date = models.DateField(auto_now_add=True)
+    contact = models.IntegerField(default=None)
